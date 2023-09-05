@@ -70,7 +70,7 @@ public class TestBMICalculatorIT {
     }
 
      @Test
-    public void testCaclulate2() {
+    public void testCaclulate3() {
 
         // Make a HTTP GET request to retrieve the last created Parolee.
         try (Response response = client.target(WEB_URI+"?weight=100&height=1.7").request().get()) {
